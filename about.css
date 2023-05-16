@@ -7,12 +7,14 @@ a{
     color: white;
 }
 .header{
+    background-color: black;
     max-height: 200px;
     height: 120px;
     width: 100%;
     padding-top: 20px;
     border-bottom: 2px solid red;
 }
+
 .heading{
     width: 90%;
     margin: auto;
@@ -54,67 +56,35 @@ a{
 .header-menu a{
     color: red;
 }
-.gallery{
-    background-color: aquamarine;
-    max-height: 500px;
+.about{
+    height: 500px;
     width: 100%;
-    height: 450px;
+    padding-top: 20px;
 }
-.gallery-content{
+.about-desc{
+    height: 470px;
     width: 90%;
-    height: 430px;
     margin: auto;
     display: flex;
     justify-content: space-between;
 }
-.gallery-desc{
-    width: 23%;
-    height:420px ;
-    text-align: center;
+.about-title{
+    width: 45%;
+    height:470px;
 }
-.gallery-desc h2{
-    text-align: center;
-    color: red;
-}
-.button{
-    border-radius: 5px;
-    background-color: red;
-    color: white;
-    cursor: pointer;
-    
-}
-.payment{
-    background-color: aquamarine;
-    width: 100%;
-    height: 500px;
-    padding-top: 50px;
-}
-.payment h1{
+.about-title h1{
     text-align: center;
     font-size: 30px;
-    color: red;
     text-transform: uppercase;
+    color: red;
+    font-weight: 800;
 }
-.payment-desc img{
-    height: 250px;
-    width: auto;
+.about-title p{
+    font-weight: 700;
 }
-.payment-id{
-    width: 90%;
-    margin: auto;
-    height: 380px;
-    display: flex;
-    padding-top: 30px;
-    justify-content: space-between;
-}
-.payment-desc{
-width: 45%;
-height: 370px;
-text-align: center;
-}
-.payment-desc P{
-margin-top: -10px;
-text-align: center;
+.about-title img{
+    height: 500px;
+    width: 95%;
 }
 .footer{
     background-color: black;
