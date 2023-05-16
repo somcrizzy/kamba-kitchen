@@ -1,0 +1,250 @@
+body{
+    margin: 0;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.header{ 
+    background-color: black;
+    width: 100%;
+    padding-top: 20px;
+    border-bottom: 2px solid red;
+}
+.heading{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.header-logo{
+    height: 100px;
+    width: 15%;
+}
+.header-logo img{
+    height: 100px;
+    aspect-ratio: 2 / 1;
+}
+.spc30{
+    height: 30px;
+    width: 100%;
+}
+.spc70{
+    height: 70px;
+    width: 100%;
+}
+.spc50{
+    height: 50px;
+    width: 100%;
+}
+.spc150{
+    height: 150px;
+    width: 100%;
+}
+.header-menu{
+    height: 100px;
+    width: 70%;
+    padding-top: 20px;
+}
+.header-menu li a{
+    color: red;
+}
+.a:hover{
+    size: 40px;
+}
+.header-menu li{
+    display: inline;
+    padding: 0px 30px;
+    font-size: 25px;
+    cursor: pointer;
+    color:black;
+}
+.hero-description{
+    max-height: 550px;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.hero-desc{
+    height: 450px;
+    width: 40%;
+}
+.hero-title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+.text{
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.spc20{
+    height: 20px;
+    width: 100%;
+}
+.spc10{
+    height: 10px;
+    width: 100%;
+}
+.hero-logo{
+    height: 450px;
+    width: 50%;
+}
+.hero-text{
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 0px 20px;
+}
+.button{
+    border-radius: 15px;
+    background-color: red;
+    margin-left: 170px;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+}
+.button:hover{
+    font-size: 15px;
+    background-color: azure;
+}
+.hero-logo img{
+    width: 95%;
+}
+.food-items{
+    background-color: rgb(53, 33, 33);
+    max-height: 850px;
+    height: 840px;
+    width: 100%;
+    padding-top: 20px;
+    border-bottom-left-radius: 170px;
+    border-top-right-radius: 250px;
+}
+.food-box{
+    height: 300px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.food-desc1 p{
+    color:white;
+}
+.food-desc2 p{
+    color:white;
+}
+.food-desc3 p{
+    color:white;
+}
+
+.food-desc1 img{
+ border-radius: 50%;
+ border: 5px solid red;
+}
+.food-desc2 img{
+    border-radius: 50%;
+    border: 5px solid red;
+   }
+   .food-desc3 img{
+    border-radius: 50%;
+    border: 5px solid red;
+   }
+.food-desc1 h3{
+    font-size: 20px;
+    color:red;
+}
+.food-desc2 h3{
+    font-size: 20px;
+    color:red;
+}
+.food-desc3 h3{
+    font-size: 20px;
+    color:red;
+}
+.food-desc button{
+    margin-left: 30px;
+    height:20px;
+}
+.buybtn{
+    background-color: red;
+    color:white;
+    box-shadow: none;
+    cursor: pointer;
+}
+.service{
+    height: 350px;
+    padding-top: 10px;
+    width: 100%;
+}
+.servie-id{
+    height: 200px;
+    width: 90%;
+    padding-bottom: 10px;
+    margin:auto;
+    display: flex;
+}
+.service h1{
+    text-align: center;
+    font-size: 25px;
+    color: red;
+}
+.service p{
+    text-align: center;
+    margin-top: -20px;
+    font-size: 25px;
+}
+.service-desc{
+    width: 30%;
+    text-align: center;
+    margin: 0px 2%;
+}
+.fa-solid, .fa-car-side{
+    color: black;
+    margin-top: 20px;
+    font-size: 90px;
+}
+.service-desc h2{
+    text-align: center;
+    color: red;
+    text-transform: uppercase;
+}
+.service-desc p{
+    font-size: 20px;
+}
+.footer{
+    background-color: black;
+    max-height: 250px;
+    height: 220px;
+    width: 100%;
+    padding-top: 15px;
+}
+.footer-desc{
+    height: 200px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footerid{
+    width: 20%;
+}
+.footerid h2{
+    text-transform: capitalize;
+    font-size: 25px;
+    color: red;
+}
+.footerid li{
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    margin-top: 3px;
+}
+.sub{
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}

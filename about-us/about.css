@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.header{
+    max-height: 200px;
+    height: 120px;
+    width: 100%;
+    padding-top: 20px;
+    border-bottom: 2px solid red;
+}
+
+.heading{
+    width: 90%;
+    margin: auto;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-logo{
+    height: 100px;
+    width: 15%;
+}
+.header-logo img{
+    height: 100px;
+    aspect-ratio: 2 / 1;
+}
+.spc30{
+    height: 30px;
+    width: 100%;
+}
+.spc70{
+    height: 70px;
+    width: 100%;
+}
+.spc50{
+    height: 50px;
+    width: 100%;
+}
+.header-menu{
+    height: 100px;
+    width: 70%;
+    padding-top: 20px;
+}
+.header-menu li{
+    display: inline;
+    padding: 0px 30px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.header-menu a{
+    color: red;
+}
+.about{
+    height: 500px;
+    width: 100%;
+    padding-top: 20px;
+}
+.about-desc{
+    height: 470px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.about-title{
+    width: 45%;
+    height:470px;
+}
+.about-title h1{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: red;
+    font-weight: 800;
+}
+.about-title p{
+    font-weight: 700;
+}
+.about-title img{
+    height: 500px;
+    width: 95%;
+}
+.footer{
+    background-color: black;
+    max-height: 250px;
+    height: 220px;
+    width: 100%;
+    padding-top: 15px;
+}
+.footer-desc{
+    height: 200px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footerid{
+    width: 20%;
+}
+.footerid h2{
+    text-transform: capitalize;
+    font-size: 25px;
+    color: red;
+}
+.footerid li{
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    margin-top: 3px;
+}
+.sub{
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
